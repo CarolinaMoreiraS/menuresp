@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif
+}
+
+body {
+    background-color: darkgrey;
+}
+menu {
+    
+    
+}
+menu , h1 {
+    background-color: rgba(35, 118, 67, 0.751);
+    padding: 10px;
+    margin-top: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-top-right-radius: 1px solid rgb(77, 77, 77);
+    color: white;
+}
+ul , a {
+    text-decoration: none;
+    color: white;
+}
+article {
+    background-color: whitesmoke;
+    padding-left: 20px;
+    font-size: 1em;
+    text-align: center;
+    width: 97vw;
+}
+p{
+    text-align: justify;
+    margin: auto;
+
+}
+h2{
+    color: green;
+}
+
+footer {
+    background: rgba(35, 118, 67, 0.751);
+    color: white;
+    text-align: center;
+}
