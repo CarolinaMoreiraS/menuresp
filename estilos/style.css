@@ -1,50 +1,65 @@
 @charset "UTF-8";
 
-* { 
-    margin: 0px;
-    padding: 0px;
-    font-family:'Times New Roman', Times, serif
+*{
+    font-family: arial;
+    margin:0px;
+    padding:0px;
+}
+body,html {
+    background-color: rgb(235, 240, 235);
 }
 
-body {
-    background-color: darkgrey;
+header {
+    background-color: rgb(37, 88, 37);
+    color: white
+}
+header > h1{
+    padding:10px;
+    text-align: center;
 }
 menu {
-    
-    
+    display: none;
 }
-menu , h1 {
-    background-color: rgba(35, 118, 67, 0.751);
+ span#hamb{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+ }
+ span#hamb:hover{
+    background-color: rgb(34, 107, 34)
+ }
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
     padding: 10px;
-    margin-top: auto;
-    text-align: center;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border-top-right-radius: 1px solid rgb(77, 77, 77);
-    color: white;
-}
-ul , a {
     text-decoration: none;
+    background-color: rgba(37, 81, 37, 0.434);
     color: white;
-}
-article {
-    background-color: whitesmoke;
-    padding-left: 20px;
-    font-size: 1em;
     text-align: center;
-    width: 97vw;
+    border-top: 1px solid 
 }
-p{
+menu > ul > li > a:hover{
+    background-color: rgb(3, 94, 3);
+}
+main {
+    width: 90vw;
+    background-color: white;
+    margin:auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
     text-align: justify;
-    margin: auto;
-
-}
-h2{
-    color: green;
-}
-
-footer {
-    background: rgba(35, 118, 67, 0.751);
-    color: white;
-    text-align: center;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
